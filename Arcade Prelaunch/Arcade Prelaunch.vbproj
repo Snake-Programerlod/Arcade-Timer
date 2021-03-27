@@ -109,6 +109,12 @@
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAandT_SharedCode\SAandT_SharedCode.vbproj">
+      <Project>{b2302b33-75f5-41e1-80db-e06bad8fe523}</Project>
+      <Name>SAandT_SharedCode</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
